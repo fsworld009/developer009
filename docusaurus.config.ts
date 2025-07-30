@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Developer 009',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'My notes for programming, gaming, and music.',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -76,16 +76,16 @@ const config: Config = {
       title: 'Developer 009',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo-dark.png',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Notes',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        // {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -99,7 +99,7 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      links: [
+      /* links: [
         {
           title: 'Docs',
           items: [
@@ -139,8 +139,8 @@ const config: Config = {
             },
           ],
         },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      ], */
+      copyright: `Copyright © ${new Date().getFullYear()} fsworld009. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
